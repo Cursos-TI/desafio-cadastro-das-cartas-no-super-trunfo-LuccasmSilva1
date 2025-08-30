@@ -9,7 +9,7 @@
 int main() {
     char estado;
     char codigo_da_carta[4];
-    int populaçao;
+    int populacao;
     float area;
     float pib;
     int numero_de_pontos_turisticos;
@@ -18,23 +18,23 @@ int main() {
     scanf("%s", &estado);
     
     printf("digite o cogigo da carta:");
-    scanf("%s", codigo_da_carta);
+    scanf("%s", &codigo_da_carta);
 
     printf("digite a população:");
-    scanf("%d", &populaçao);
+    scanf("%d", &populacao);
 
-    printf("digite a area:%e");
+    printf("digite a area:");
     scanf("%f", &area);
 
-    printf("digite o pib:%f");
+    printf("digite o pib:");
     scanf("%f", &pib);
 
-    print("digite o numero de pontos turisticos:%d", &numero_de_pontos_turisticos);
+    printf("digite o numero de pontos turisticos");
     scanf("%d", &numero_de_pontos_turisticos);
-///carta 1
-    printf("carta 1:/n -- estado:%d/n -- codigo da carta:%s/n", estado , codigo_da_carta );
-    printf("população:%d/n -- area%e/n", populaçao, area );
-    printf("pib:%f/n == numero de pontos turisticos:%d/n",pib ,numero_de_pontos_turisticos);
+
+    printf("estado: %d\n -- codigo da carta: %s\n", estado, codigo_da_carta);
+    printf("população: %d\n -- area: %e\n", populacao, area);
+    printf("pib: %f\n -- numero de pontos turisticos: %d\n", pib, numero_de_pontos_turisticos);
 
 
     return 0;
